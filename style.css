@@ -159,6 +159,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #3d5a80;
+  max-height: 45px;
 }
 
 li {
@@ -170,6 +171,11 @@ li a {
   color: white;
   text-align: center;
   padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a img {
+  height: 30px;
   text-decoration: none;
 }
 
