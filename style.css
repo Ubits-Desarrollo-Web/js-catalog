@@ -174,11 +174,6 @@ li a {
   text-decoration: none;
 }
 
-li a img {
-  height: 30px;
-  text-decoration: none;
-}
-
 li a:hover:not(.active) {
   background-color: #98c1d9;
   color: #3d5a80;
