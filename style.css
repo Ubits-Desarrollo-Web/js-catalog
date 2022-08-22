@@ -151,3 +151,33 @@ img {
     width: 60%;
   }
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3d5a80;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #98c1d9;
+  color: #3d5a80;
+}
+
+.active {
+  background-color: #5cc5f6;
+}
