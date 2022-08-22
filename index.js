@@ -1,4 +1,3 @@
-
 for (let i of catalog.data) {
   //Create Card
   let card = document.createElement("div");
@@ -101,15 +100,6 @@ document.getElementById("search").addEventListener("click", () => {
     }
   });
 });
-
-
-// document.getElementsByClassName("card").addEventListener("submit", () => {
-//   //initializations
-//   let cart = document.getElementById("cart");
-//   console.log(i.productName);
-//   let order = document.createElement("p");
-//   cart.appendChild(order);
-// });
 
 //Initially display all products
 window.onload = () => {
