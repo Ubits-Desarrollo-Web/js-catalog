@@ -1,5 +1,5 @@
 let catalog = {
-    data: [
+    "data": [
       {
         "productName": "Producto A",
         "category": "Filtro1",
@@ -104,6 +104,13 @@ let catalog = {
         "price": "29",
         "image": "./img/ubits.png",
         "inventory": 30,
+      },
+      {
+        "productName": "Producto C",
+        "category": "Filtro1",
+        "price": "29",
+        "image": "./img/ubits.png",
+        "inventory": 40,
       },
     ],
   };
