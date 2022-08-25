@@ -68,7 +68,7 @@ function filterProduct(value) {
   //loop through all cards
   elements.forEach((element) => {
     //display all cards on 'all' button click
-    if (value == "all") {
+    if (value == "Todos") {
       element.classList.remove("hide");
     } else {
       //Check if element contains category class
@@ -103,5 +103,5 @@ document.getElementById("search").addEventListener("click", () => {
 
 //Initially display all products
 window.onload = () => {
-  filterProduct("all");
+  filterProduct("Todos");
 };

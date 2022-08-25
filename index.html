@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <ul>
-      <li><a href="#brand">Nombre de la Marca</a></li>
-      <!-- <li>
-        <a href="#">
-          <img src="./img/logo.png" />
-        </a>
-      </li> -->
-      <li><a href="#home">Inicio</a></li>
-      <li><a href="#contact">Contacto</a></li>
-      <li style="float: right">
-        <a class="active" href="#about">Sobre Nosotros</a>
-      </li>
-    </ul>
+    <nav>
+      <ul>
+        <li><a href="#brand">Nombre de la Marca</a></li>
+        <!-- <li>
+          <a href="#">
+            <img src="./img/logo.png" />
+          </a>
+        </li> -->
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#contact">Contacto</a></li>
+        <li style="float: right">
+          <a class="active" href="#about">Sobre Nosotros</a>
+        </li>
+      </ul>
+    </nav>
     <div class="row">
       <div class="column left">
         <div class="container">
@@ -32,7 +34,7 @@
             <button id="search">Buscar</button>
           </div>
           <div id="filter-container">
-            <button class="filter-button" onclick="filterProduct('all')">
+            <button class="filter-button" onclick="filterProduct('Todos')">
               Todos
             </button>
             <button class="filter-button" onclick="filterProduct('Filtro1')">

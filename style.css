@@ -179,6 +179,6 @@ li a:hover:not(.active) {
   color: #3d5a80;
 }
 
-.active {
+nav .active {
   background-color: #5cc5f6;
 }
